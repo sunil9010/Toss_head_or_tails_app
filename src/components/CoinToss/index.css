@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.inner {
+  background-color: #ffff;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+.img {
+  height: 90px;
+  width: 90px;
+}
+.counts {
+  display: flex;
+  justify-content: space-around;
+}
+.heading {
+  font-family: 'Roboto';
+  text-align: center;
+  color: #a35200;
+  font-weight: 600;
+}
+.description {
+  color: #334255;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.button {
+  border-radius: 10px;
+  border: none;
+  background-color: #f9d423;
+  color: #a35200;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+}
